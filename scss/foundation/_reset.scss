@@ -1,0 +1,27 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  box-sizing: border-box;
+}
+:root {
+	font-family: "Noto Sans JP", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: $font-weight;
+	font-style: normal;
+}
+
+body {
+  color: $font-color;
+  font-size: $font-size;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+  margin-bottom: 50px 0;
+}

@@ -1,0 +1,18 @@
+/* CSS Document */
+
+.p-carousel{
+	width: min(100%, 1024px);
+	margin: 0 auto;
+	--carousel-image-num: 6;
+	
+	img{
+		width: 100%;
+		height: auto;
+	}
+	
+	ul{
+		display: flex;
+		position: relative;
+		width: calc(100% * var(--carousel-image-num));
+	}
+}
